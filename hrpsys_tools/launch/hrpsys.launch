@@ -82,6 +82,7 @@
     '/>
   <arg name="hrpsys_opt_rtc_config_args" default=''/>
   <arg name="hrpsys_args" default='
+-o "exec_cxt.periodic.priority:9"
 -o "exec_cxt.periodic.rate:$(arg hrpsys_periodic_rate)"
 -o "manager.shutdown_onrtcs:NO"
 -o "manager.modules.load_path:$(arg hrpsys_load_path)"
